@@ -15,7 +15,6 @@ public class TransporteController {
     private List<Vehiculo> flota;
     private Map<String, String> conductores;
 
-    // Constructor que inicializa la flota y los conductores (mismos datos de la Etapa 3)
     public TransporteController() {
         flota = new ArrayList<>();
         flota.add(new Bus("BUS101", 40, "Centro-Norte"));
